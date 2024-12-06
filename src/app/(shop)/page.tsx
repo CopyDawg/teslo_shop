@@ -16,7 +16,7 @@ export default async function Home({searchParams}: Props) {
     <>
       <Title title="Tienda" subtitle="Todos los productos" classname="mb-2"/>
       <ProductGrid products={products}/>
-      <Pagination/>
+      <Pagination totalPages={totalPages}/>
     </>
   );
 }
